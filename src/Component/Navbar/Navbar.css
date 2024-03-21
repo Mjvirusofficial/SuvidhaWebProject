@@ -1,0 +1,76 @@
+
+.logoimg{
+    height: 15vh;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+.nav ul li p{
+    color: black;
+    font-size: 3.5vh;
+}
+
+.nav ul li p:hover{
+    background-color: #9540eb;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+p{
+    color: black !important;
+    font-size: 25px;
+}
+
+p:hover{
+    background-color: #9540eb;
+    border-radius: 5px;
+    color: white !important;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.finger{
+    height: 3.3vh;
+}
+
+.finger:hover{
+    color: white;
+}
+
+
+
+@media (max-width: 992px) {
+    #ForDesktop{
+        display: none;
+    }
+}
+
+/* mobile */
+@media (min-width: 992px) {
+    #ForMobile{
+        display: none;
+    }
+}
+
+.logoimg2{
+    height: 12vh;
+}
+
+.mobileNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barsvg{
+    background-color: white;
+    padding: 5px;
+}
