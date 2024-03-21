@@ -51,6 +51,12 @@ p:hover{
     #ForDesktop{
         display: none;
     }
+    p{
+        font-size: 20px;
+    }
+    p:hover{
+        font-size: 20px;
+    }
 }
 
 /* mobile */
@@ -58,10 +64,12 @@ p:hover{
     #ForMobile{
         display: none;
     }
+    
 }
 
 .logoimg2{
-    height: 12vh;
+    height: 10.5vh;
+    margin-top: 8px;
 }
 
 .mobileNav{

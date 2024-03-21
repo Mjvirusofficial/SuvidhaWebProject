@@ -33,7 +33,7 @@ function Navbar() {
                 </div>
             </div>
 
-            <div className="container-fluid mt-3" id='ForMobile' >
+            <div className="container-fluid mt-2" id='ForMobile' >
                 <div className="mobileNav">
                     <NavLink to='/'>
                         <img className='logoimg2' src={logo} alt="" />
