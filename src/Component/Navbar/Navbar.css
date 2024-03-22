@@ -34,10 +34,17 @@
 
 
 .girl {
-   height: 44vh;
+   height: 55vh;
+   margin-left: -20%;
 }
 
 p{
     font-size:3.1vh;
-    
+}
+
+p:hover{
+    background-color: #9540eb;
+    border-radius: 5px;
+    color: white !important;
+    padding: 5px;
 }
