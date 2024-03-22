@@ -1,6 +1,8 @@
 
 .logoimg{
     height: 15vh;
+    z-index: 10;
+
 }
 .nav ul{
     display: flex;
@@ -68,9 +70,11 @@ p:hover{
 }
 
 .logoimg2{
-    height: 10.5vh;
+    height: 12vh;
     margin-top: 8px;
 }
+
+
 
 .mobileNav{
     display: flex;
@@ -84,10 +88,19 @@ p:hover{
     border-radius: 4px;
     border: 2px solid black;
     cursor: pointer;
+    z-index: 1;
 }
 
+#logo2 {
+    position: relative; /* or position: absolute; or position: fixed; */
+    z-index: 1;
+}
+
+
+/* 
 .mobilemenu{
-    background-color: red;
+   
+
 }
 
 .mobileUldiv{
@@ -123,4 +136,46 @@ p:hover{
     list-style: none;
     margin-left: -32px;
     margin-top: 30px;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar for the entire page */
+}
+
+.girlimg {
+    /* position: absolute; */
+    padding-right: 100px;
+}
+
+.girl {
+    /* position: relative; */
+    height: 90vh;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    position: relative;
+    top: -18%;
+    right: 20%;
+}
+
+
+.mobileMenu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -110%;
+    transition: left 0.3s ease;
+}
+
+.mobileMenu2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 0%;
+    transition: left 0.3s ease;
+}
+
+
+.mMenu{
+    z-index: 1;
 }
