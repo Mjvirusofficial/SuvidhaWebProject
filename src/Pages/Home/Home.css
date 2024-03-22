@@ -51,10 +51,9 @@
         font-size: 3vh;
     }
 }
-
+/* (min-width: 480px) and  */
 @media   (max-width: 1000px){
     .headline{
-        margin-top: -60%;
         font-size: 6.8vh;
     }
     .rocket{
@@ -71,5 +70,9 @@
     }
     .btn1, .btn2{
         font-size: 3vh;
+    }
+    .homepageDiv{
+        position: absolute;
+        top: 15%;
     }
 }
