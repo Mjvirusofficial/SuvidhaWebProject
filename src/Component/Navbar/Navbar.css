@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2px;
 }
 
 #logo2 {
     height: 11vh;
+    margin-top: 12px;
 }
 
 
