@@ -52,7 +52,7 @@
     }
 }
 
-@media  (min-width: 480px) and (max-width: 992px){
+@media   (max-width: 1000px){
     .headline{
         margin-top: -60%;
         font-size: 6.8vh;
