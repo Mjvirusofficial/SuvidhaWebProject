@@ -33,7 +33,7 @@
 @media only screen and (max-width: 768px){
     .headline{
         margin-top: -100%;
-        font-size: 4.8vh;
+        font-size: 4.4vh;
     }
     .rocket{
         height: 5vh;
@@ -42,10 +42,10 @@
         margin-top: 10px;
     }
     .para{
-        font-size: 3.5vh;
+        font-size: 4vh;
     }
     .btndiv{
-        gap: 45px;
+        gap: 50px;
     }
     .btn1, .btn2{
         font-size: 3vh;
