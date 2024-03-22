@@ -41,7 +41,7 @@ function Navbar() {
                         </svg>
                     </div>
                 </div>
-                <div className="mMenu row">
+                <div className={isClicked ? 'mMenu2 row' : 'mMenu row'}>
                     <div className="mMenuDiv mt-4 col-3">
                         <NavLink to='/' className='nav-link'><p>Home</p></NavLink>
                         <NavLink to='/about' className='nav-link'><p>About Us</p></NavLink>
