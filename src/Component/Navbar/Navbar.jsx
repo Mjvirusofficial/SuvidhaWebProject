@@ -3,7 +3,7 @@ import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import logo from '../../Image/Logo.png'
-import girl from '../../Image/Character14.svg'
+// import girl from '../../Image/Character14.svg'
 
 function Navbar() {
 
