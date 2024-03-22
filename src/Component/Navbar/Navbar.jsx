@@ -16,7 +16,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="container ">
+            <div className="container mcontain ">
                 <div className="mobile">
                     <div className="mleft">
 
