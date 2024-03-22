@@ -41,8 +41,8 @@ function Navbar() {
                         </svg>
                     </div>
                 </div>
-                <div className="mMenu">
-                    <div className="mMenuDiv mt-3">
+                <div className="mMenu row">
+                    <div className="mMenuDiv mt-3 col-3">
                         <NavLink to='/' className='nav-link'><p>Home</p></NavLink>
                         <NavLink to='/about' className='nav-link'><p>About Us</p></NavLink>
                         {/* <NavLink to='/exam' className='nav-link'><p>Exam</p></NavLink> */}
@@ -50,7 +50,7 @@ function Navbar() {
                         <NavLink to='/service' className='nav-link'><p>Services</p></NavLink>
                         <NavLink to='/contact' className='nav-link'><p>Contact Us</p></NavLink>
                     </div>
-                    <div className="girlimg">
+                    <div className="girlimg col-9">
                         <img className='girl' src={girl} alt="girl" />
                     </div>
                 </div>
