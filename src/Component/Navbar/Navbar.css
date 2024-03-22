@@ -22,7 +22,7 @@
 .mMenu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -34,5 +34,10 @@
 
 
 .girl {
-   height: 76vh;
+   height: 44vh;
+}
+
+p{
+    font-size:3.1vh;
+    
 }

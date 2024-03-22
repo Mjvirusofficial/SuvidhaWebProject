@@ -42,8 +42,8 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="mMenu">
-                    <div className="mMenuDiv">
-                    <NavLink to='/' className='nav-link'><p>Home</p></NavLink>
+                    <div className="mMenuDiv mt-3">
+                        <NavLink to='/' className='nav-link'><p>Home</p></NavLink>
                         <NavLink to='/about' className='nav-link'><p>About Us</p></NavLink>
                         {/* <NavLink to='/exam' className='nav-link'><p>Exam</p></NavLink> */}
                         <NavLink to='/enquiry' className='nav-link'><p>Enquiry Form</p></NavLink>
@@ -51,7 +51,7 @@ function Navbar() {
                         <NavLink to='/contact' className='nav-link'><p>Contact Us</p></NavLink>
                     </div>
                     <div className="girlimg">
-                            <img className='girl' src={girl} alt="girl" />
+                        <img className='girl' src={girl} alt="girl" />
                     </div>
                 </div>
             </div>
