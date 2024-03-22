@@ -32,14 +32,16 @@
 
 @media only screen and (max-width: 768px){
     .headline{
-        margin-top: -200px;
-        font-size: 6vh;
+        margin-top: 0px;
+        font-size: 5.5vh;
     }
     .img1{
         margin-top: 10px;
     }
     .para{
-        font-size: 4.5vh;
+        font-size: 5.6vh;
     }
-    
+    .btndiv{
+        gap: 47px;
+    }
 }
