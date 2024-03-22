@@ -18,3 +18,21 @@
     cursor: pointer;
     z-index: 1;
 }
+
+.mMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.girlimg {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar for the entire page */
+}
+
+
+.girl {
+   height: 76vh;
+}
