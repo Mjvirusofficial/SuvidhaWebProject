@@ -42,7 +42,7 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="mMenu row">
-                    <div className="mMenuDiv mt-3 col-3">
+                    <div className="mMenuDiv mt-4 col-3">
                         <NavLink to='/' className='nav-link'><p>Home</p></NavLink>
                         <NavLink to='/about' className='nav-link'><p>About Us</p></NavLink>
                         {/* <NavLink to='/exam' className='nav-link'><p>Exam</p></NavLink> */}
