@@ -95,6 +95,22 @@ p:hover {
     }
 }
 
+@media (max-width: 250px) {
+    .girl {
+        /* height: 55vh !important;
+        margin-left: -32% !important;
+        margin-top: -25% !important; */
+    }
+
+    p {
+        /* font-size: 2vh !important;
+        z-index: 1 !important;
+        position: relative !important; */
+    }
+}
+
+
+
 @media screen and (max-width: 992px) and (min-width: 310px) {
 
     /* Styles for screens between 400px and 600px wide */
@@ -112,5 +128,70 @@ p:hover {
 @media (min-width: 992px){
     .mcontain{
         display: none;
+    }
+}
+
+/* for desktop */
+
+
+.logoimg{
+    height: 15vh;
+    z-index: 10;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+.nav ul li p{
+    color: black;
+    font-size: 3.5vh;
+}
+
+.nav ul li p:hover{
+    background-color: #9540eb;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+p{
+    color: black !important;
+    font-size: 25px;
+}
+
+p:hover{
+    background-color: #9540eb;
+    border-radius: 5px;
+    color: white !important;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.finger{
+    height: 3.3vh;
+}
+
+.finger:hover{
+    color: white;
+}
+
+
+
+@media (max-width: 992px) {
+    #ForDesktop{
+        display: none;
+    }
+    p{
+        font-size: 20px;
+    }
+    p:hover{
+        font-size: 20px;
     }
 }

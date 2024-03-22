@@ -55,6 +55,22 @@ function Navbar() {
                     </div>
                 </div>
             </div>
+
+            <div className="container mt-3 navbar" id='ForDesktop'>
+                <NavLink to='/'>
+                    <img className='logoimg' src={logo} alt="" />
+                </NavLink>
+                <div className="nav">
+                    <ul>
+                        <li><NavLink to='/' className='nav-link'><p>Home</p></NavLink></li>
+                        <li><NavLink to='/about' className='nav-link'><p>About Us</p></NavLink></li>
+                        <li><NavLink to='/exam' className='nav-link'><p>Exams <i class="fa-solid fa-angle-down"></i></p></NavLink></li>
+                        <li><NavLink to='/enquiry' className='nav-link'><p>Enquiry Form</p></NavLink></li>
+                        <li><NavLink to='/service' className='nav-link'><p>Services</p></NavLink></li>
+                        <li><NavLink to='/contact' className='nav-link'><p>Contact Us</p></NavLink></li>
+                    </ul>
+                </div>
+            </div>
         </>
     )
 }
