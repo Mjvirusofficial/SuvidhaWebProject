@@ -25,9 +25,23 @@
     border: 2px solid #6C63FF;
     border-radius: 12px;
     padding: 10px 15px 10px 15px;
+    /* background-color: #6C63FF; */
+    color: black;
+    font-size: 4vh;
+    transition: all 0.3s ease;
+
+}
+
+.btn2:hover{
+   
     background-color: #6C63FF;
     color: white;
-    font-size: 4vh;
+}
+
+.btn1:hover{
+   
+    background-color: #6C63FF;
+    color: white;
 }
 
 @media only screen and (max-width: 480px){
