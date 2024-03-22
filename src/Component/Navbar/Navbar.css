@@ -58,7 +58,7 @@ p:hover{
 
 .mMenu{
     position: relative;
-    left: -100%;
+    left: -120%;
     transition: left 0.3s ease;
 }
 
