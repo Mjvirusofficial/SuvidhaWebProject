@@ -8,7 +8,6 @@ import Student from '../../Component/Student/Student'
 // import newYork from '../../Image/NewWork.jpg'
 import s1 from '../../Image/s1.jpg'
 import s2 from '../../Image/s2.jpg'
-import s3 from '../../Image/s3.jpg'
 
 
 
