@@ -8,7 +8,8 @@ import Student from '../../Component/Student/Student'
 // import newYork from '../../Image/NewWork.jpg'
 import s1 from '../../Image/s1.jpg'
 import s2 from '../../Image/s2.jpg'
-
+import Card from '../../Component/Card/Card'
+import CardData from '../../Component/CardData/CardData'
 
 
 
@@ -68,12 +69,30 @@ function Home() {
             </div>
           </div>
           <div className="row ">
-            <div className="col-12 mx-auto  col-md-6 col-lg-6">
+            <div className="col-12 mb-4 mx-auto  col-md-6 col-lg-6">
               <Student pic={s1} name={'Ruhi Singh'} text={'Studying abroad with XYZ Company was a truly transformative and enriching experience! The unwavering support and guidance provided by the dedicated team were nothing short of exceptional. It was more than just education; it was a journey of personal and academic growth.'} />
             </div>
           </div>
         </div>
       </div>
+
+      <div className="container mt-4 ">
+        <div className="text-center mb-4 serviceCSS">Services We Offer</div>
+        <div className="row gy-3 ">
+            {
+              CardData.map((i,id) => {
+                return <Card
+                  img = {i.img}
+                  title = {i.tittle}
+                  desc = {i.desc}
+                  visit = {i.visit}
+                />
+              })
+            }
+
+        </div>
+      </div>
+
 
 
     </>

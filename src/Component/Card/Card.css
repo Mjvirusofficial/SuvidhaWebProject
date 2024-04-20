@@ -1,0 +1,14 @@
+.cardimg{
+    height: 50vh;
+    padding: 20px;
+}
+.sercard{
+    background-color: #6C63FF !important;
+    border-radius: 15px !important;
+}
+.unicodeArrow{
+    font-size: 30px;
+}
+.rocket2{
+    height: 4vh;
+}

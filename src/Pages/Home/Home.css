@@ -168,5 +168,11 @@
 .heading3TagLine{
     font-size: 3vh;
     font-family: "Tilt Neon", sans-serif;
+}
 
+.serviceCSS{
+    color: #6C63FF;
+    font-size: 5vh;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 800;
 }
