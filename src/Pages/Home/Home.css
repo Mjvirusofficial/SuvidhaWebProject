@@ -8,6 +8,7 @@
     font-weight: 700;
     
 }
+
 .para{
     font-size: 6vh;
     font-family: "Tilt Neon", sans-serif;
@@ -100,10 +101,11 @@
     .btn1, .btn2{
         font-size: 3vh;
     }
+    .homepageDivabsolute{
+      
+    }
     .homepageDiv{
-        /* position: absolute;
-        top: 15%; */
-        margin-top: -280px;
+        margin-top: -250px;
     }
     .topStudy{
         font-size: 5vh !important;
