@@ -101,13 +101,11 @@
     .btn1, .btn2{
         font-size: 3vh;
     }
-    
+
     .homepageDiv{
-        margin-top: -330px;
+        margin-top: -370px;
     }
-    .studentimg {
-        height: 8vh;
-    }
+   
     .topStudy{
         font-size: 5vh !important;
     }

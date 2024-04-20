@@ -29,3 +29,8 @@
       "YROT" 0; */
 }
 
+@media (max-width: 1000px){
+    .studentimg {
+        height: 8vh;
+    }
+}
