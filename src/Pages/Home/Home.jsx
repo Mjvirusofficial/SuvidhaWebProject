@@ -50,26 +50,28 @@ function Home() {
         </div>
       </div> */}
 
-      <div className="container Div3">
-        <div className="heading3 text-center">
-          What Our Students Say
-        </div>
-        <div className="text-center heading3TagLine mb-4">
-        Discover the experiences of students who studied abroad with Suvidha Overseas.
+      <div className="container">
+        <div className="container Div3 ">
+          <div className="heading3 text-center">
+            What Our Students Say
+          </div>
+          <div className="text-center heading3TagLine mb-4">
+            Discover the experiences of students who studied abroad with Suvidha Overseas.
 
-        </div>
-        <div className="row m-5">
+          </div>
+          <div className="row ">
             <div className="col-12  col-md-6 col-lg-6">
-              <Student pic={s1} name={'Angel Singh'} text={'Studying abroad with XYZ Company was a truly transformative and enriching experience! The unwavering support and guidance provided by the dedicated team were nothing short of exceptional. It was more than just education; it was a journey of personal and academic growth.'}/>
+              <Student pic={s1} name={'Angel Singh'} text={'Studying abroad with XYZ Company was a truly transformative and enriching experience! The unwavering support and guidance provided by the dedicated team were nothing short of exceptional. It was more than just education; it was a journey of personal and academic growth.'} />
             </div>
             <div className="col-12 col-md-6 col-lg-6">
-              <Student name={'Aditya Rai'} pic={s2} text={'My heartfelt gratitude to XYZ Company for making my dream of studying abroad a reality. The entire process, from application to settling into a new academic environment, was impeccably smooth. The teams meticulous attention to detail and commitment to excellence set them apart.'}/>
+              <Student name={'Aditya Rai'} pic={s2} text={'My heartfelt gratitude to XYZ Company for making my dream of studying abroad a reality. The entire process, from application to settling into a new academic environment, was impeccably smooth. The teams meticulous attention to detail and commitment to excellence set them apart.'} />
             </div>
-        </div>
-        <div className="row m-5 ">
-        <div className="col-12 mb-4 mx-auto  col-md-6 col-lg-6">
-              <Student pic={s1} name={'Ruhi Singh'} text={'Studying abroad with XYZ Company was a truly transformative and enriching experience! The unwavering support and guidance provided by the dedicated team were nothing short of exceptional. It was more than just education; it was a journey of personal and academic growth.'}/>
+          </div>
+          <div className="row ">
+            <div className="col-12 mx-auto  col-md-6 col-lg-6">
+              <Student pic={s1} name={'Ruhi Singh'} text={'Studying abroad with XYZ Company was a truly transformative and enriching experience! The unwavering support and guidance provided by the dedicated team were nothing short of exceptional. It was more than just education; it was a journey of personal and academic growth.'} />
             </div>
+          </div>
         </div>
       </div>
 
