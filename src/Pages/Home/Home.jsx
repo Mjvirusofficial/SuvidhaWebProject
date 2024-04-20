@@ -22,7 +22,7 @@ function Home() {
         <div className="row ">
           <div className="col-12 col-lg-6 col-md-12">
             <div className='headline m-0'>Welcome to Suvidha OverSeas <img className='rocket' src={rocket} alt="rocket" /></div>
-            <div className="para">We c Empower your Dreams</div>
+            <div className="para">We Empower your Dreams</div>
             <div className="para2">Study abroad along with us and reach new heights.</div>
             <div className="btndiv container mt-3 row">
               <div className="btn1 text-center   col-5 ">
