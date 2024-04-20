@@ -176,3 +176,30 @@
     font-family: "Tilt Neon", sans-serif;
     font-weight: 800;
 }
+
+.faqContainer{
+    background-color: #6C63FF;
+    border-radius: 15px;
+}
+.faq{
+    color: white;
+    font-size: 5vh;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 800;
+}
+
+.faq-question,.faq-answer{
+    color: white;
+    font-size: 3vh;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 800;
+}
+
+.faq-item{
+    border: 3px solid white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}

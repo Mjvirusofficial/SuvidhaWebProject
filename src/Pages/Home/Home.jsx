@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import img1 from '../../Image/11669618_20943839.svg'
 import rocket from '../../Image/3d-business-space-rocket.png'
@@ -10,8 +10,25 @@ import s1 from '../../Image/s1.jpg'
 import s2 from '../../Image/s2.jpg'
 import Card from '../../Component/Card/Card'
 import CardData from '../../Component/CardData/CardData'
+import fqimg from '../../Image/fq.png'
 
 
+const FaqItem = ({ question, answer }) => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
+  return (
+    <div className="faq-item">
+      <div className="faq-question " onClick={toggleVisibility}>
+        {question}
+      </div>
+      {isVisible && <div className="faq-answer">{answer}</div>}
+    </div>
+  );
+};
 
 
 function Home() {
@@ -79,19 +96,61 @@ function Home() {
       <div className="container mt-4 ">
         <div className="text-center mb-4 serviceCSS">Services We Offer</div>
         <div className="row gy-3 ">
-            {
-              CardData.map((i,id) => {
-                return <Card
-                  img = {i.img}
-                  title = {i.tittle}
-                  desc = {i.desc}
-                  visit = {i.visit}
-                />
-              })
-            }
+          {
+            CardData.map((i, id) => {
+              return <Card
+                img={i.img}
+                title={i.tittle}
+                desc={i.desc}
+                visit={i.visit}
+              />
+            })
+          }
 
         </div>
+
+        <div className="container mt-5 faqContainer">
+          <div className="faq row  text-center">
+            <div className="col mt-3">FAQ's</div>
+          </div>
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-6">
+              <img src={fqimg} alt="" />
+            </div>
+            <div className="col-12 col-md-6 col-lg-6">
+            <div className="faq-container">
+      <FaqItem
+        question="What is React?"
+        answer="React is a JavaScript library for building user interfaces."
+      />
+      <FaqItem
+        question="How does React work?"
+        answer="React uses a virtual DOM to efficiently update the user interface."
+      />
+      <FaqItem
+        question="What are components in React?"
+        answer="Components are the building blocks of a React application."
+      />
+      <FaqItem
+        question="How to pass data between components in React?"
+        answer="Data can be passed between components using props."
+      />
+      <FaqItem
+        question="What is state in React?"
+        answer="AState is a way to manage data within a component."
+      />
+      <FaqItem
+        question="Can React be used with other libraries?"
+        answer="Yes, React can be used with other libraries and frameworks.
+
+"
+      />
+    </div>
+            </div>
+          </div>
+        </div>
       </div>
+
 
 
 
